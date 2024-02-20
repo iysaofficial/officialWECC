@@ -206,7 +206,7 @@ footer {
 
   .footer-section {
     padding-top: 380px;
-    background-image: url('./assets/img/footer-bg.WebP') ;
+    background-image: url(../../../public/assets/img/footer-bg.WebP) ;
     background-size: cover;
  }
 
@@ -460,7 +460,8 @@ footer {
 /* Organized Start */ /* Organized Start */
 .organized-section {
   padding: 100px 25px 75px 25px  ;
-  background-image: url('./assets/img/web.jpg');
+  /* background-image: url('public\assets\img\web.jpg'); */
+  background-image: url(../../../public/assets/img/web.jpg);
   background-position: center;
   background-size: cover;
 }
