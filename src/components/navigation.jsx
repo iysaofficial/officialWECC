@@ -41,6 +41,7 @@ function Navigation() {
                             <a href="/#category" className="d-inline-block customNav">Category</a>
                             <a href="/faq" className="d-inline-block customNav">FAQ</a>
                             <a href="/contact" className="d-inline-block customNav">Contact</a>
+                            <a href="https://drive.google.com/file/d/1XZ_Vs81A4uEtYZ4gpHMBOicJuRl4BMPj/view?usp=sharing" target="_blank" className="d-inline-block customNav">Press Release</a>
                             <a href="/Poster" className="d-inline-block customNav">Poster Layout</a>
                             {/* <a className="dropdown d-inline-block">
                                 <button className="btn btn-secondary dropdown-toggle customNav" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
