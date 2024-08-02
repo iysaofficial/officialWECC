@@ -43,7 +43,7 @@ function Footer() {
 							<div className="col-md-4 mb-md-0 mb-4 border-left">
 								<h2 className="footer-heading">Contact Info</h2>
 								<ul className="list-unstyled">
-                                    <li><a href="https://goo.gl/maps/gEzFyE9gtXEyRfA26" className="py-1 d-block" target="_blank"> <i className="fa fa-map-marker me-1"></i> Jl. Kemang No. 63 RT 03 RW 06</a></li>
+                                    <li><a href="https://goo.gl/maps/gEzFyE9gtXEyRfA26" className="py-1 d-block" target="_blank"> <i className="fa fa-map-marker me-1"></i> Jl. Kemang RT 03 RW 06</a></li>
                                     <li><a href="https://wa.me/6281770914129" className="py-1 d-block" target="_blank"><i className="fa fa-phone me-1"></i>+6281770914129</a></li>
                                     <li><a href="mailto:wecc.iysa@gmail.com" target="_blank" className="py-1 d-block"><i className="fa fa-envelope me-1"></i>wecc.iysa@gmail.com</a></li>
                                 </ul>

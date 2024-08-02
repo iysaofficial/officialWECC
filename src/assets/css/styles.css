@@ -47,6 +47,7 @@ body h1, h2, h3, h4, h5, h6, a, p {
 /* Umum End */ /* Umum End */
 
 /* NAVBAR START */ /* NAVBAR START */
+
 .nav-header {
   height: 100px !important;
 }
@@ -59,8 +60,18 @@ body h1, h2, h3, h4, h5, h6, a, p {
 }
 
 .navigation .nav-bottom {
-    background-color: var(--warna-sekunder);
+  background-color: var(--warna-sekunder);
+  width: 100%;
+  z-index: 1000;
+  /* transition: ease-in-out 1s; */
 }
+
+.navigation .nav-bottom.sticky {
+  position: fixed !important;
+  top: 0;
+  transition: ease-in-out 1s;
+}
+
 .nav-bottom .dropdown button {
     background-color:  transparent;
     border: none;
@@ -83,7 +94,6 @@ body h1, h2, h3, h4, h5, h6, a, p {
       display: inline-block;
       min-width: 80px;
     text-align: center;
-    /* border-right: 1px solid var(--warna-tulisan); */
     padding: 14px 18px;
 }
 
@@ -206,7 +216,7 @@ footer {
 
   .footer-section {
     padding-top: 380px;
-    background-image: url(../../../public/assets/img/footer-bg.WebP) ;
+    background-image: url(/assets/img/footer-bg.WebP) ;
     background-size: cover;
  }
 
@@ -322,7 +332,7 @@ footer {
 /* Main Hero Start */ /* Main Hero Start */
 
 .mainhero-section {
-  background-image: url('../../../public/assets/img/Businees.jpeg');
+  background-image: url('/assets/img/Businees.jpeg');
   background-position: center;
   background-size: cover;
   padding: 100px 25px 75px 25px  ;
@@ -461,7 +471,7 @@ footer {
 .organized-section {
   padding: 100px 25px 75px 25px  ;
   /* background-image: url('public\assets\img\web.jpg'); */
-  background-image: url(../../../public/assets/img/web.jpg);
+  background-image: url(/assets/img/web.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -557,6 +567,11 @@ footer {
 .faq-section {
   background: #fdfdfd;
   min-height: 100vh;
+}
+
+.faq-title{
+  position: sticky !important;
+  top: 10px;
 }
 
 .faq-title h2 {
@@ -678,3 +693,18 @@ footer {
   padding: 0px 25px 75px 25px  ;
 }
 /* Poster End */ /* Poster End */
+
+/* LOW START */ /* LOW START */
+.low-section{
+  padding: 100px 25px 100px 25px  ;
+}
+.low-section .content-title h1{
+  font-weight: bold;
+}
+
+.low-section .content-button {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+/* LOW END */ /* LOW END */

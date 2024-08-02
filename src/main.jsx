@@ -5,6 +5,10 @@ import Home from "./pages";
 import ContactPage from "./pages/contactpages";
 import Faq from "./pages/faq";
 import PosterPage from "./pages/posterlayoutpages";
+import Lowtahun from "./pages/low/lowtahun";
+import Kategori24 from "./pages/low/2024/kategori24";
+import Jenjangonl24 from "./pages/low/2024/jenjangonl24";
+import Jenjangofl24 from "./pages/low/2024/jenjangofl24";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +26,22 @@ const router = createBrowserRouter([
   {
     path: "/poster",
     element: <PosterPage />
+  },
+  {
+    path: "/lowtahun",
+    element: <Lowtahun />
+  },
+  {
+    path: "/kategori24",
+    element: <Kategori24 />
+  },
+  {
+    path: "/jenjangofl24",
+    element: <Jenjangofl24 />
+  },
+  {
+    path: "/jenjangonl24",
+    element: <Jenjangonl24 />
   }
 ]);
 
