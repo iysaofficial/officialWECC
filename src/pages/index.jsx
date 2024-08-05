@@ -9,6 +9,7 @@ import About from "../components/about";
 import Backtotop from "../components/back-to-top";
 
 import Timevenue from "../components/timeveneu";
+import Aftermovie from "../components/aftermovie";
 
 function Home() {
     return (
@@ -17,6 +18,7 @@ function Home() {
         <MainHero />
         <About />
         <Timevenue />
+        <Aftermovie/>
         <Category />
         <Organized />
         <Backtotop />

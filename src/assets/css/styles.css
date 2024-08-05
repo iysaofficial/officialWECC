@@ -360,7 +360,6 @@ footer {
   background-color: var(--warna-primary);
   background-position: center;
   background-size: cover;
-  /* height: 100vh; */
 }
 
 .about-section .content-text p{
@@ -470,7 +469,6 @@ footer {
 /* Organized Start */ /* Organized Start */
 .organized-section {
   padding: 100px 25px 75px 25px  ;
-  /* background-image: url('public\assets\img\web.jpg'); */
   background-image: url(/assets/img/web.jpg);
   background-position: center;
   background-size: cover;
@@ -708,3 +706,30 @@ footer {
   gap: 2rem;
 }
 /* LOW END */ /* LOW END */
+
+/* Time Veneu Start */ /* Time Veneu Start */
+.timeveneu-section {
+  padding: 100px 25px 75px 25px  ;
+  background-color: var(--warna-tulisan);
+}
+/* Time Veneu End */ /* Time Veneu End */
+
+
+
+/* After Movie Start */ /* After Movie Start */
+.aftermovie-section {
+  padding: 100px 25px 100px 25px  ;
+  background-color: var(--warna-primary);
+  background-position: center;
+  background-size: cover;
+}
+
+.aftermovie-section .title-content h2{
+  color: var(--warna-tulisan);
+}
+
+.aftermovie-section .video-content iframe{
+  border: 1rem solid var(--warna-sekunder);
+  border-radius: 10px;
+}
+/* After Movie End */ /* After Movie End */

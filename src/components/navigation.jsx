@@ -85,9 +85,6 @@ function Navigation() {
                   <a href="/" className="d-inline-block customNav">
                     Home
                   </a>
-                  <a href="/#About" className="d-inline-block customNav">
-                    About
-                  </a>
                   <a className="dropdown d-inline-block">
                     <button
                       className="btn btn-secondary dropdown-toggle customNav"
@@ -156,6 +153,30 @@ function Navigation() {
                         target="_blank"
                       >
                         2024
+                      </a>
+                    </div>
+                  </a>
+                  <a className="dropdown d-inline-block">
+                    <button
+                      className="btn btn-secondary dropdown-toggle customNav"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-bs-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Certificate
+                    </button>
+                    <div
+                      className="dropdown-menu"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a
+                        href="https://drive.google.com/drive/folders/1yB2PVbW9c5Uj_PGh1cxMoA9Y0JqHsbX3"
+                        target="_blank"
+                        className="dropdown-item"
+                      >
+                        Certificate Supervisor 2024
                       </a>
                     </div>
                   </a>
