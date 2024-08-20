@@ -121,6 +121,12 @@ function Navigation() {
                       aria-labelledby="dropdownMenuButton"
                     >
                       <a
+                        href="/listnews"
+                        className="dropdown-item"
+                      >
+                        News
+                      </a>
+                      <a
                         href="https://drive.google.com/file/d/1XZ_Vs81A4uEtYZ4gpHMBOicJuRl4BMPj/view?usp=sharing"
                         target="_blank"
                         className="dropdown-item"

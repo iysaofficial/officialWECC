@@ -26,12 +26,12 @@ function Kategori24() {
             >
               WECC SPECIAL AWARD
             </a>
-            <a href="/jenjangofl24" className="btn btn-action btn-lg">
+            {/* <a href="/jenjangofl24" className="btn btn-action btn-lg">
               WECC OFFLINE
             </a>
             <a href="/jenjangonl24" className="btn btn-action btn-lg">
               WECC ONLINE
-            </a>
+            </a> */}
           </div>
         </div>
       </section>

@@ -9,6 +9,7 @@ import Lowtahun from "./pages/low/lowtahun";
 import Kategori24 from "./pages/low/2024/kategori24";
 import Jenjangonl24 from "./pages/low/2024/jenjangonl24";
 import Jenjangofl24 from "./pages/low/2024/jenjangofl24";
+import ListNews from "./pages/news/listnews";
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
   {
     path: "/jenjangonl24",
     element: <Jenjangonl24 />
+  },
+  {
+    path: "/listnews",
+    element: <ListNews />
   }
 ]);
 
