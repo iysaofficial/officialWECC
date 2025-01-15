@@ -166,18 +166,6 @@ function IndonesiaOnline() {
                     <option value="Online Competition">
                       Online Competition
                     </option>
-                    <option value="Online Competition + Certificate and Medal">
-                      Online Competition + Certificate and Medal
-                    </option>
-                    <option value="Offline Competition">
-                      Offline Competition
-                    </option>
-                    <option value="Offline Competition + Full Package">
-                      Offline Competition + Full Package
-                    </option>
-                    <option value="Offline Competition + Excursion">
-                      Offline Competition + Excursion
-                    </option>
                   </select>
                 </div>
               </div>
