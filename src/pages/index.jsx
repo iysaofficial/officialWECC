@@ -17,7 +17,7 @@ function Home() {
         <Navigation />
         <MainHero />
         <About />
-        <Timevenue />
+        {/* <Timevenue /> */}
         <Aftermovie/>
         <Category />
         <Organized />
