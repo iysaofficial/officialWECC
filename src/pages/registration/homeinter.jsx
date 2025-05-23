@@ -2,7 +2,7 @@ import Navigation from "../../components/navigation";
 import Footer from "../../components/footer";
 
 import { useState } from "react";
-import { internationalTerms } from "../../data/terms";
+import { internationalOfflineTerms, internationalOnlineTerms } from "../../data/terms";
 
 function HomeInter() {
   const [showModal, setShowModal] = useState(false);
@@ -52,7 +52,7 @@ function HomeInter() {
             <a
               className="btn btn-action text-center me-lg-5"
               onClick={() =>
-                handleOpenModal("/interonline", internationalTerms)
+                handleOpenModal("/interonline", internationalOnlineTerms)
               }
             >
               Online Competition <i className="fa-solid fa-earth-americas"></i>
@@ -60,7 +60,7 @@ function HomeInter() {
             <a
               className="btn btn-action text-center me-lg-5"
               onClick={() =>
-                handleOpenModal("/interoffline", internationalTerms)
+                handleOpenModal("/interoffline", internationalOfflineTerms)
               }
             >
               Offline Competition{" "}

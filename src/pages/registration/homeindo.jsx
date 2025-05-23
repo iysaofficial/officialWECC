@@ -2,7 +2,7 @@ import Navigation from "../../components/navigation";
 import Footer from "../../components/footer";
 
 import { useState } from "react";
-import { indonesiaTerms } from "../../data/terms";
+import { indonesiaOfflineTerms, indonesiaOnlineTerms } from "../../data/terms";
 
 function HomeIndo() {
 
@@ -19,6 +19,7 @@ function HomeIndo() {
 
   const handleAccept = () => {
     if (termsAccepted) {
+      sessionStorage.setItem("termsAccepted", "true"); // Tambahkan baris ini
       setShowModal(false);
       setTermsAccepted(false); // Reset checkbox untuk penggunaan berikutnya
       window.location.href = redirectLink; // Redirect ke halaman
@@ -51,12 +52,12 @@ function HomeIndo() {
           </div>
           <div className="link-web mx-auto text-center">
             <a className="btn btn-action text-center me-lg-5" onClick={() =>
-                handleOpenModal("/indoonline", indonesiaTerms)
+                handleOpenModal("/indoonline", indonesiaOnlineTerms)
               }>
               Online Competition <i className="fa-solid fa-earth-americas"></i>
             </a>
             <a className="btn btn-action text-center me-lg-5" onClick={() =>
-                handleOpenModal("/indooffline", indonesiaTerms)
+                handleOpenModal("/indooffline", indonesiaOfflineTerms)
               }>
               Offline Competition{" "}
               <i className="fa-solid fa-earth-americas"></i>

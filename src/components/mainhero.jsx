@@ -14,6 +14,7 @@ function MainHero() {
                 <p className="lead mb-5">Join us and be part of the next generation that is prepared for a bright future!</p>
                 <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
                   {/* <a href="/homeregist" type="button" className="btn btn-action btn-lg px-4 gap-3">Open Registration 2025</a> */}
+                  <a type="button" className="btn btn-action btn-lg px-4 gap-3">Coming Soon 2025</a>
                   <a type="button" className="btn btn-outline-light btn-lg px-4">Guide book</a>
                 </div>
               </div>

@@ -18,7 +18,7 @@ import InternationalOnline from "./pages/registration/inter-online";
 import IndonesiaOffline from "./pages/registration/indo-offline";
 import IndonesiaOnline from "./pages/registration/indo-online";
 import InternationalOffline from "./pages/registration/inter-offline";
-import Thankyou from "./pages/thankyoupage";
+import Thankyou from "./pages/registration/thankyou";
 
 const router = createBrowserRouter([
   {

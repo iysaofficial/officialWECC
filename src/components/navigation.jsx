@@ -114,7 +114,7 @@ function Navigation() {
                       aria-haspopup="true"
                       aria-expanded="false"
                     >
-                      Media Coverage
+                      Media
                     </button>
                     <div
                       className="dropdown-menu"
@@ -124,7 +124,7 @@ function Navigation() {
                         href="/listnews"
                         className="dropdown-item"
                       >
-                        News
+                        News from Media
                       </a>
                       <a
                         href="https://drive.google.com/file/d/1XZ_Vs81A4uEtYZ4gpHMBOicJuRl4BMPj/view?usp=sharing"
