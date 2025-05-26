@@ -40,7 +40,7 @@ export default function InternationalOnline() {
     }
   };
 
-const handleCategoryChange = (e) => {
+  const handleCategoryChange = (e) => {
     const value = e.target.value;
     setSelectedCategory(value);
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
@@ -454,6 +454,9 @@ const handleCategoryChange = (e) => {
                     <option value="Elementary">Elementary</option>
                     <option value="Secondary">Secondary</option>
                     <option value="University">University</option>
+                    <option value="Public (Teachers, Lecture, Researchers)">
+                      Public (Teachers, Lecture, Researchers)
+                    </option>
                   </select>
                 </div>
                 <div className="input-box">

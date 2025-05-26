@@ -369,7 +369,7 @@ function IndonesiaOffline() {
                 </div>
                 <div className="input-box">
                   <label htmlFor="NPSN" className="form-label">
-                    National School Identification Number (NPSN)
+                    Nomor Pokok Sekolah Nasional (NPSN)
                   </label>
                   <label>
                     <p>
@@ -386,12 +386,12 @@ function IndonesiaOffline() {
                     id="NPSN"
                     name="NPSN"
                     className="form-control"
-                    placeholder="Enter National School Identification Number (NPSN)"
+                    placeholder="Input Nomor Pokok Sekolah Nasional (NPSN)"
                   ></textarea>
                 </div>
                 <div className="input-box">
                   <label htmlFor="GRADE" className="form-label">
-                    Education Level
+                    GRADE
                   </label>
                   <select
                     type="text"
@@ -401,10 +401,13 @@ function IndonesiaOffline() {
                     placeholder="Choose Grade"
                     required
                   >
-                    <option value="">--Select Your Education Level--</option>
+                    <option value="">--Choose Grade--</option>
                     <option value="Elementary">Elementary</option>
                     <option value="Secondary">Secondary</option>
                     <option value="University">University</option>
+                    <option value="Public (Teachers, Lecture, Researchers)">
+                      Public (Teachers, Lecture, Researchers)
+                    </option>
                   </select>
                 </div>
                 <div className="input-box">

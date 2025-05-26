@@ -409,6 +409,9 @@ function IndonesiaOnline() {
                     <option value="Elementary">Elementary</option>
                     <option value="Secondary">Secondary</option>
                     <option value="University">University</option>
+                    <option value="Public (Teachers, Lecture, Researchers)">
+                      Public (Teachers, Lecture, Researchers)
+                    </option>
                   </select>
                 </div>
                 <div className="input-box">
@@ -687,7 +690,7 @@ function IndonesiaOnline() {
           </div>
         </div>
       </section>
-      <Footer />  
+      <Footer />
     </>
   );
 }
