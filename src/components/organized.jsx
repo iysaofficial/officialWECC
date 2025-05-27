@@ -15,10 +15,10 @@ function Organized() {
                         <img src="./assets/logo/LogoIYSA.WebP" alt="Image" className="img-fluid" />
                         <h3><a>Indonesian Young Scientist Association</a></h3>
                     </div>
-                    {/* <div className="content-image">
-                        <img src="./assets/logo/I3L.png" alt="Image" className="img-fluid" />
-                        <h3><a>Indonesia International Institute for Life Sciences</a></h3>
-                    </div> */}
+                    <div className="content-image">
+                        <img src="./assets/logo/logoudinus.png" alt="Image" className="img-fluid" />
+                        <h3><a>Universitas Dian Nuswantoro</a></h3>
+                    </div>
                 </div>
             </div>
         </div>
