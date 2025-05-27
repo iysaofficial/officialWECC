@@ -504,9 +504,12 @@ footer {
     top: 0;
  }
 
+
 .organized-section .content-image img {
   margin-bottom: 20px; 
   border-radius: 10px;
+  max-height: auto;
+  max-width: 100%;
 }
 
 .organized-section .content-image h3 {
