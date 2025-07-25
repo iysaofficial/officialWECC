@@ -63,7 +63,7 @@ export default function InternationalOnline() {
   useEffect(() => {
     const termsAccepted = sessionStorage.getItem("termsAccepted");
     if (!termsAccepted) {
-      alert("Anda harus menyetujui Syarat & Ketentuan terlebih dahulu.");
+      alert("You must agree to the Terms & Conditions first.");
       navigate("/homeinter"); // Navigasi ke halaman HomeIndo
     }
   }, [navigate]);

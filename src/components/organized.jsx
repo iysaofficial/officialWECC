@@ -35,5 +35,4 @@ function Organized() {
     </>
   );
 }
-
 export default Organized;
