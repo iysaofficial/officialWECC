@@ -2,7 +2,10 @@ import Navigation from "../../components/navigation";
 import Footer from "../../components/footer";
 
 import { useState } from "react";
-import { internationalOfflineTerms, internationalOnlineTerms } from "../../data/terms";
+import {
+  internationalOfflineTerms,
+  internationalOnlineTerms,
+} from "../../data/terms";
 
 function HomeInter() {
   const [showModal, setShowModal] = useState(false);
@@ -18,6 +21,7 @@ function HomeInter() {
 
   const handleAccept = () => {
     if (termsAccepted) {
+      sessionStorage.setItem("termsAccepted", "true"); // Tambahkan baris ini
       setShowModal(false);
       setTermsAccepted(false); // Reset checkbox untuk penggunaan berikutnya
       window.location.href = redirectLink; // Redirect ke halaman
@@ -63,8 +67,7 @@ function HomeInter() {
                 handleOpenModal("/interoffline", internationalOfflineTerms)
               }
             >
-              Offline Competition{" "}
-              <i className="fa-solid fa-earth-americas"></i>
+              Offline Competition <i className="fa-solid fa-earth-americas"></i>
             </a>
           </div>
         </div>
