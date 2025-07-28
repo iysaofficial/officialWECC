@@ -11,14 +11,14 @@ import Jenjangonl24 from "./pages/low/2024/jenjangonl24";
 import Jenjangofl24 from "./pages/low/2024/jenjangofl24";
 import ListNews from "./pages/news/listnews";
 
-import HomeRegist from "./pages/registration/homeregist";
-import HomeIndo from "./pages/registration/homeindo";
-import HomeInter from "./pages/registration/homeinter";
-import InternationalOnline from "./pages/registration/inter-online";
-import IndonesiaOffline from "./pages/registration/indo-offline";
-import IndonesiaOnline from "./pages/registration/indo-online";
-import InternationalOffline from "./pages/registration/inter-offline";
-import Thankyou from "./pages/registration/thankyou";
+// import HomeRegist from "./pages/registration/homeregist";
+// import HomeIndo from "./pages/registration/homeindo";
+// import HomeInter from "./pages/registration/homeinter";
+// import InternationalOnline from "./pages/registration/inter-online";
+// import IndonesiaOffline from "./pages/registration/indo-offline";
+// import IndonesiaOnline from "./pages/registration/indo-online";
+// import InternationalOffline from "./pages/registration/inter-offline";
+// import Thankyou from "./pages/registration/thankyou";
 
 const router = createBrowserRouter([
   {
@@ -57,38 +57,38 @@ const router = createBrowserRouter([
     path: "/listnews",
     element: <ListNews />
   },
-  {
-    path: "/homeregist",
-    element: <HomeRegist />
-  },
-  {
-    path: "/homeindo",
-    element: <HomeIndo />
-  },
-  {
-    path: "/homeinter",
-    element: <HomeInter />
-  },
-  {
-    path: "/indoonline",
-    element: <IndonesiaOnline />
-  },
-  {
-    path: "/indooffline",
-    element: <IndonesiaOffline />
-  },
-  {
-    path: "/interonline",
-    element: <InternationalOnline />
-  },
-  {
-    path: "/interoffline",
-    element: <InternationalOffline />
-  },
-  {
-    path: "/thankyou",
-    element: <Thankyou />
-  },
+  // {
+  //   path: "/homeregist",
+  //   element: <HomeRegist />
+  // },
+  // {
+  //   path: "/homeindo",
+  //   element: <HomeIndo />
+  // },
+  // {
+  //   path: "/homeinter",
+  //   element: <HomeInter />
+  // },
+  // {
+  //   path: "/indoonline",
+  //   element: <IndonesiaOnline />
+  // },
+  // {
+  //   path: "/indooffline",
+  //   element: <IndonesiaOffline />
+  // },
+  // {
+  //   path: "/interonline",
+  //   element: <InternationalOnline />
+  // },
+  // {
+  //   path: "/interoffline",
+  //   element: <InternationalOffline />
+  // },
+  // {
+  //   path: "/thankyou",
+  //   element: <Thankyou />
+  // },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
