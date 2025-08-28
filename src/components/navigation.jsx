@@ -184,7 +184,6 @@ function Navigation() {
                       >
                         Certificate Supervisor 2025
                       </a>
-                    >
                       <a
                         href="https://drive.google.com/drive/folders/1yB2PVbW9c5Uj_PGh1cxMoA9Y0JqHsbX3"
                         target="_blank"
