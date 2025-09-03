@@ -2,25 +2,25 @@ import React, { useEffect, useState } from "react";
 import "../assets/css/styles.css";
 
 function Navigation() {
+  const [isSticky, setIsSticky] = useState(false);
 
-    const [isSticky, setIsSticky] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      const navHeaderHeight =
+        document.querySelector(".nav-header").offsetHeight;
+      if (window.scrollY > navHeaderHeight) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
 
-    useEffect(() => {
-      const handleScroll = () => {
-        const navHeaderHeight = document.querySelector(".nav-header").offsetHeight;
-        if (window.scrollY > navHeaderHeight) {
-          setIsSticky(true);
-        } else {
-          setIsSticky(false);
-        }
-      };
-  
-      window.addEventListener("scroll", handleScroll);
-  
-      return () => {
-        window.removeEventListener("scroll", handleScroll);
-      };
-    }, []);
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <>
@@ -85,25 +85,8 @@ function Navigation() {
                   <a href="/" className="d-inline-block customNav">
                     Home
                   </a>
-                  <a className="dropdown d-inline-block">
-                    <button
-                      className="btn btn-secondary dropdown-toggle customNav"
-                      type="button"
-                      id="dropdownMenuButton"
-                      data-bs-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      List of Winners
-                    </button>
-                    <div
-                      className="dropdown-menu"
-                      aria-labelledby="dropdownMenuButton"
-                    >
-                      <a className="dropdown-item" href="/kategori24">
-                        2024
-                      </a>
-                    </div>
+                  <a href="/lowtahun" className="d-inline-block customNav">
+                    List of Winners
                   </a>
                   <a className="dropdown d-inline-block">
                     <button
@@ -120,10 +103,7 @@ function Navigation() {
                       className="dropdown-menu"
                       aria-labelledby="dropdownMenuButton"
                     >
-                      <a
-                        href="/listnews"
-                        className="dropdown-item"
-                      >
+                      <a href="/listnews" className="dropdown-item">
                         News from Media
                       </a>
                       <a
@@ -210,4 +190,3 @@ function Navigation() {
 }
 
 export default Navigation;
-
