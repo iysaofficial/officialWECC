@@ -20,15 +20,15 @@ function Jenjangofl25() {
             </h1>
           </div>
           <div className="content-button mt-4">
-            {/* <a
-              href="https://drive.google.com/file/d/1_CMi4pZzvTFJKrNahTMzhiNkpczNto2B/view?usp=sharing"
+            <a
+              href="https://drive.google.com/file/d/1aGRNNFNhezM4TnDlYmmd0sSU0D43nwnn/view?usp=sharing"
               target="_blank"
               className="btn btn-action btn-lg"
             >
               Senior High School
             </a>
-            <a
-              href="https://drive.google.com/file/d/1-hr-dulxDwdrFZMdvvETz_WHqgtHh-Kh/view?usp=sharing"
+            {/* <a
+              href=""
               target="_blank"
               className="btn btn-action btn-lg"
             >

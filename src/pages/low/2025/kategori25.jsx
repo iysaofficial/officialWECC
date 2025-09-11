@@ -19,16 +19,16 @@ function Kategori25() {
             </h1>
           </div>
           <div className="content-button mt-4">
-            {/* <a
-              href="https://drive.google.com/file/d/1jcytMeyvQx3JF7QyE91WIu8T755sgY_y/view?usp=sharing"
+            <a
+              href=""
               target="_blank"
               className="btn btn-action btn-lg"
             >
               WECC SPECIAL AWARD
-            </a> */}
-            {/* <a href="/jenjangofl24" className="btn btn-action btn-lg">
+            </a>
+            <a href="/jenjangofl25" className="btn btn-action btn-lg">
               WECC OFFLINE
-            </a> */}
+            </a>
             <a href="/jenjangonl25" className="btn btn-action btn-lg">
               WECC ONLINE
             </a>
