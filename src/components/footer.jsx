@@ -1,7 +1,37 @@
 
-
+import { useEffect } from "react";
 function Footer() {
-  
+  useEffect(() => {
+        const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwfw1dAhzyY6p6crVCCuoEXzb_E7hBOi8cYuIBu_-JZzz2a25h-tCvT6Xd3dUH9Mx2fQA/exec";
+
+        const form = document.forms.namedItem("footer-newsletter");
+
+        if (form) {
+        const handleSubmit = async (e) => {
+            e.preventDefault();
+            try {
+            await fetch(scriptURL, {
+                method: "POST",
+                body: new FormData(form),
+            });
+            alert("Data sent successfully!");
+            form.reset();
+            } catch (error) {
+            console.error("Error:", error);
+            alert("Failed to send data.");
+            }
+        };
+
+        form.addEventListener("submit", handleSubmit);
+
+        // cleanup listener
+        return () => {
+            form.removeEventListener("submit", handleSubmit);
+        };
+        }
+    }, []);
+
     return (
 		
       <>
@@ -10,9 +40,9 @@ function Footer() {
 				<div className="row justify-content-center">
 					<div className="col-10 col-lg-6">
 						<div className="subscribe mb-5">
-                            <form action="https://formspree.io/f/xoqoddrr" method="POST" className="subscribe-form">
+                            <form action="" name="footer-newsletter" method="POST" className="subscribe-form">
                                 <div className="form-group d-flex">
-                                <input type="email" className="form-control rounded-left" placeholder="Enter email address" required name="email"/>
+                                <input type="email" className="form-control rounded-left" placeholder="Enter email address" required name="Email"/>
                                 <input type="submit" value="Subscribe" className="form-control submit px-3" /> 
                                 </div>
                             </form>

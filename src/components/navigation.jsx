@@ -107,11 +107,11 @@ function Navigation() {
                         News from Media
                       </a>
                       <a
-                        href="https://drive.google.com/file/d/1XZ_Vs81A4uEtYZ4gpHMBOicJuRl4BMPj/view?usp=sharing"
+                        href="https://drive.google.com/file/d/115ioYB9Yi-oLTRBO2GysgJIoxS_mgI5u/view?usp=sharing"
                         target="_blank"
                         className="dropdown-item"
                       >
-                        Press Release 2024
+                        Press Release 2025
                       </a>
                     </div>
                   </a>
