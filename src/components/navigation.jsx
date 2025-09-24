@@ -115,6 +115,26 @@ function Navigation() {
                       </a>
                     </div>
                   </a>
+                  <a className="dropdown d-inline-block">
+                    <button
+                      className="btn btn-secondary dropdown-toggle customNav"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-bs-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Curation
+                    </button>
+                    <div
+                      className="dropdown-menu"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a href="https://drive.google.com/drive/folders/1aeCaOZxQm9iBrve-AQmVzvY1LJOsPC_X?usp=sharing" target="_blank" className="dropdown-item">
+                        Curation 2025
+                      </a>
+                    </div>
+                  </a>
                   <a href="/Poster" className="d-inline-block customNav">
                     Poster Layout
                   </a>
