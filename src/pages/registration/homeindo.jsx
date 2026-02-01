@@ -43,10 +43,10 @@ function HomeIndo() {
           <div className="wrapper">
             <div className="text-center">
               <h1 className="mx-auto">
-                REGISTRATION FORM FOR INDONESIA PARTICIPANTS
+                REGISTRATION FORM FOR INDONESIAN CITIZEN
               </h1>
               <h3 className="mx-auto mt-5 mb-2">
-                Choose Categories Competition for Registration WECC 2025
+                Choose Categories Competition for Registration WECC 2026
               </h3>
             </div>
           </div>

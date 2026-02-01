@@ -3,6 +3,7 @@ import Footer from "../../components/footer";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
+
 function IndonesiaOnline() {
   const [selectedMaxNamaLengkap, setselectedMaxNamaLengkap] = useState("");
   const maxNameChars = 180; // batasan maksimal karakter
@@ -17,7 +18,7 @@ function IndonesiaOnline() {
   const [showModal, setShowModal] = useState(false);
   const [countdown, setCountdown] = useState(5);
   const [canClick, setCanClick] = useState(false);
-  const navigate = useNavigate(); // React Router hook untuk navigasi
+  const navigate = useNavigate();
 
   const handleInputNameChange = (e) => {
     const { value } = e.target;
@@ -47,7 +48,7 @@ function IndonesiaOnline() {
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
       case "World Economics Challenge and Competition - Online Competition":
-        setCategoryPrice("RP 950.000");
+        setCategoryPrice("RP 1.150.000");
         break;
       default:
         break;
@@ -63,7 +64,7 @@ function IndonesiaOnline() {
   }, [navigate]);
 
   const scriptURL =
-    "https://script.google.com/macros/s/AKfycbwMobyTBA7p4bqN0OpGFOP468ezHz3bP8ACSKzpfyKr0zbpYMqsnrW3w2s8hmZgL24Z/exec";
+    "https://script.google.com/macros/s/AKfycbzPZZvbEN3qeL5kt5KM9clL9S4hLNBmQiYVPgJAZ8DnVaB1QyDkWouodi3hZYxoKtVi/exec";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -108,20 +109,18 @@ function IndonesiaOnline() {
       });
 
       if (response.ok) {
-        setStatusMessage("Data sent successfully!");
-
-        // Ambil data sebelum reset
-        const formData = {
-          namaLengkap: selectedMaxNamaLengkap,
-          projectTitle: selectedMaxProject,
-          category: selectedCategory,
-          categoryPrice: categoryPrice,
-          namasekolah: selectedNamaSekolah,
-        };
+        setStatusMessage("Data berhasil dikirim!");
 
         form.reset();
         setTimeout(() => {
-          navigate("/thankyou", { state: formData });
+          navigate(
+            `/thankyou?namaLengkap=${encodeURIComponent(
+              selectedMaxNamaLengkap
+            )}
+            &projectTitle=${encodeURIComponent(selectedMaxProject)}
+            &category=${encodeURIComponent(selectedCategory)}
+            &namasekolah=${encodeURIComponent(selectedNamaSekolah)}`
+          );
         }, 1000);
       } else {
         setStatusMessage("An error occurred while sending data.");
@@ -140,11 +139,11 @@ function IndonesiaOnline() {
         <div className="container">
           <div className="content">
             <div className="sub">REGISTRATION FORM</div>
-            <h1 className="garis-bawah"></h1>
+            <h1 className="garis-bawah">&nbsp;</h1>
             <br />
             <br />
             <h4>
-              HELLO WECC 2025 PARTICIPANTS, Please consider the following
+              HELLO WECC 2026 INDONESIAN CITIZEN, Please consider the following
               information before filling out the registration form :
             </h4>
             <br />
@@ -191,8 +190,8 @@ function IndonesiaOnline() {
                       {isLoading
                         ? "Submitting..."
                         : canClick
-                        ? "Continue"
-                        : `Please wait... ${countdown}`}
+                          ? "Continue"
+                          : `Please wait... ${countdown}`}
                     </button>
                   </div>
                 </div>
@@ -201,7 +200,7 @@ function IndonesiaOnline() {
 
             <form name="regist-form">
               <h1 className="text-sm md:text-lg lg:text-5xl">BIODATA</h1>
-              <h1 className="garis-bawah"></h1>
+              <h1 className="garis-bawah">&nbsp;</h1>
               <div className="user-details">
                 <div className="input-box">
                   <label className="form-label" value="Peserta Indonesia">
@@ -213,7 +212,7 @@ function IndonesiaOnline() {
                     name="CATEGORY_PARTICIPANT"
                     className="form-control"
                     placeholder="Choose Categories Participant"
-                    value="INDONESIAN PARTICIPANTS"
+                    value="INDONESIA"
                     readOnly
                   />
                 </div>
@@ -250,8 +249,8 @@ function IndonesiaOnline() {
                       the following format:
                     </p>
                     <p>Note: maximum 5 members + 1 team leader</p>
-                    <h6>Kamal Putra</h6>
-                    <h6>Ranu Ramadhan</h6>
+                    <h6>Kamal Putra Simatupang</h6>
+                    <h6>Nur Alif Rajaloa Hidayat</h6>
                     <h6>Irsyad Zaidan</h6>
                   </label>
                   <textarea
@@ -336,7 +335,7 @@ function IndonesiaOnline() {
               {/* DATA SEKOLAH START */}
               {/* DATA SEKOLAH START */}
               <h1 className="text-sm md:text-lg lg:text-5xl">SCHOOL DATA</h1>
-              <h1 className="garis-bawah"></h1>
+              <h1 className="garis-bawah">&nbsp;</h1>
               <div className="user-details">
                 <div className="input-box">
                   <label htmlFor="NAMA_SEKOLAH" className="form-label">
@@ -409,9 +408,6 @@ function IndonesiaOnline() {
                     <option value="Elementary">Elementary</option>
                     <option value="Secondary">Secondary</option>
                     <option value="University">University</option>
-                    <option value="Public (Teachers, Lecture, Researchers)">
-                      Public (Teachers, Lecture, Researchers)
-                    </option>
                   </select>
                 </div>
                 <div className="input-box">
@@ -436,7 +432,7 @@ function IndonesiaOnline() {
               <h1 className="text-sm md:text-lg lg:text-5xl">
                 SUPERVISOR DATA
               </h1>
-              <h1 className="garis-bawah"></h1>
+              <h1 className="garis-bawah">&nbsp;</h1>
               <div className="user-details">
                 <div className="input-box">
                   <label for="NAME_SUPERVISOR" className="form-label">
@@ -495,7 +491,7 @@ function IndonesiaOnline() {
                 <h1 className="text-sm md:text-lg lg:text-5xl">
                   DETAIL PROJECT
                 </h1>
-                <h1 className="garis-bawah"></h1>
+                <h1 className="garis-bawah">&nbsp;</h1>
               </div>
               <div className="user-details">
                 <div className="input-box">
@@ -533,11 +529,15 @@ function IndonesiaOnline() {
                     required
                   >
                     <option value="">--Choose Categories--</option>
-                    <option value="BUSINESS PLAN">BUSINESS PLAN</option>
-                    <option value="COMMERCIAL PRODUCT">
-                      COMMERCIAL PRODUCT
+                    <option value="Social Science">Social Science</option>
+                    <option value="Environmental Science">
+                      Environmental Science
                     </option>
-                    <option value="RESEARCH PAPER">RESEARCH PAPER</option>
+                    <option value="Innovation Science">
+                      Innovation Science
+                    </option>
+                    <option value="Engineering">Engineering</option>
+                    <option value="Life Sciences">Life Sciences</option>
                   </select>
                 </div>
 
@@ -603,7 +603,7 @@ function IndonesiaOnline() {
                 <h1 className="text-sm md:text-lg lg:text-5xl">
                   GENERAL INFORMATION
                 </h1>
-                <h1 className="garis-bawah"></h1>
+                <h1 className="garis-bawah">&nbsp;</h1>
               </div>
               <div className="user-details">
                 <div className="input-box">
@@ -628,7 +628,7 @@ function IndonesiaOnline() {
                 </div>
                 <div className="input-box">
                   <label for="INFORMATION_RESOURCES" className="form-label">
-                    WECC 2025 Competition Information Resources
+                    WECC 2026 Competition Information Resources
                   </label>
                   <select
                     type="text"
@@ -657,7 +657,8 @@ function IndonesiaOnline() {
                 <div className="input-box">
                   <label for="FILE" className="form-label">
                     If you received free registration from a previous event or
-                    school visit activity, please attach documentary evidence.{" "}
+                    school visit activity, please attach documentary
+                    evidence.{" "}
                   </label>
                   <input
                     type="url"

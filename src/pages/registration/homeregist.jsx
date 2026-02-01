@@ -18,17 +18,17 @@ function HomeRegist() {
             <div className="text-center">
               <h1 className="mx-auto">REGISTRATION FORM</h1>
               <h3 className="mx-auto mt-5 mb-2">
-                Choose Categories Participant for Registration WECC 2025
+                Choose Your Citizenship Category for Registration WECC 2026
               </h3>
             </div>
           </div>
           <div className="link-web mx-auto text-center">
             <a href="/homeindo" className="btn btn-action text-center me-lg-5">
-              Indonesia Participant{" "}
+              Indonesian Citizen{" "}
               <i className="fa-solid fa-earth-americas"></i>
             </a>
             <a href="/homeinter" className="btn btn-action text-center me-lg-5">
-              International Participant{" "}
+              International Citizen{" "}
               <i className="fa-solid fa-earth-americas"></i>
             </a>
           </div>
