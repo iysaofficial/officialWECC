@@ -20,12 +20,12 @@ function Organized() {
               <div className="col-12 col-md-4 mb-4 mb-md-0">
                 <div className="content-image">
                   <img
-                    src="./assets/logo/logoudinus.png"
-                    alt="Universitas Dian Nuswantoro"
+                    src="./assets/logo/LOGO_POLINEMA.png"
+                    alt="Politeknik Negeri Malang"
                     className="img-fluid"
                     style={{ maxHeight: "120px", objectFit: "contain" }}
                   />
-                  <h5 className="mt-3">Universitas Dian Nuswantoro</h5>
+                  <h5 className="mt-3">Politeknik Negeri Malang </h5>
                 </div>
               </div>
             </div>
