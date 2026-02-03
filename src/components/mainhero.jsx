@@ -9,7 +9,7 @@ function MainHero() {
             <div className="row justify-content-md-center">
               <div className="content col-12 col-lg-9 col-xl-7 col-xxl-6 text-center">
                 <h1 className="display-3 fw-bold mb-3">WECC</h1>
-                <p className="lead">Register for the second World Economics Challenge and Competition (WECC) organized by the Indonesian Young Scientist Association (IYSA)</p>
+                <p className="lead">Register for the third World Economics Challenge and Competition (WECC) organized by the Indonesian Young Scientist Association (IYSA)</p>
                 <p className="lead mb-5">Join us and be part of the next generation that is prepared for a bright future!</p>
                 <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
                   {/* <a href="#" type="button" className="btn btn-action btn-lg px-4 gap-3">Coming Soon 2026</a> */}
