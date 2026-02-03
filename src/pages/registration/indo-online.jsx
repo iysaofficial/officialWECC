@@ -408,6 +408,7 @@ function IndonesiaOnline() {
                     <option value="Elementary">Elementary</option>
                     <option value="Secondary">Secondary</option>
                     <option value="University">University</option>
+                    <option value="Public">Public</option>
                   </select>
                 </div>
                 <div className="input-box">
@@ -529,15 +530,13 @@ function IndonesiaOnline() {
                     required
                   >
                     <option value="">--Choose Categories--</option>
-                    <option value="Social Science">Social Science</option>
-                    <option value="Environmental Science">
-                      Environmental Science
+                    <option value="Bussiness Plan">Bussiness Plan</option>
+                    <option value="Research Paper">
+                      Research Paper
                     </option>
-                    <option value="Innovation Science">
-                      Innovation Science
+                    <option value="Commercial Product">
+                      Commercial Product
                     </option>
-                    <option value="Engineering">Engineering</option>
-                    <option value="Life Sciences">Life Sciences</option>
                   </select>
                 </div>
 

@@ -51,6 +51,8 @@ export default function InternationalOffline() {
     switch (value) {
       case "World Economics Challenge and Competition - Offline Competition":
         break;
+      case "World Economics Challenge and Competition - Offline Competition + Full Package":
+        break;
       default:
         break;
     }
@@ -500,15 +502,13 @@ export default function InternationalOffline() {
                     required
                   >
                     <option value="">--Choose Categories--</option>
-                    <option value="Social Science">Social Science</option>
-                    <option value="Environmental Science">
-                      Environmental Science
+                    <option value="Bussiness Plan">Bussiness Plan</option>
+                    <option value="Research Paper">
+                      Research Paper
                     </option>
-                    <option value="Innovation Science">
-                      Innovation Science
+                    <option value="Commercial Product">
+                      Commercial Product
                     </option>
-                    <option value="Engineering">Engineering</option>
-                    <option value="Life Sciences">Life Sciences</option>
                   </select>
                 </div>
                 <div className="input-box">
