@@ -536,8 +536,6 @@ function IndonesiaOffline() {
                     <option value="Commercial Product">
                       Commercial Product
                     </option>
-                    <option value="Engineering">Engineering</option>
-                    <option value="Life Sciences">Life Sciences</option>
                   </select>
                 </div>
 
