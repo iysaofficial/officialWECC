@@ -25,6 +25,7 @@ import IndonesiaOffline from "./pages/registration/indo-offline";
 import InternationalOnline from "./pages/registration/inter-online";
 import InternationalOffline from "./pages/registration/inter-offline";
 import Thankyou from "./pages/registration/thankyou";
+import Cert2026 from "./pages/certificate/cert2026";
 
 const router = createBrowserRouter([
   {
@@ -118,6 +119,10 @@ const router = createBrowserRouter([
   {
     path: "/thankyou",
     element: <Thankyou />
+  },
+  {
+    path: "/cert2026",
+    element: <Cert2026 />
   },
 ]);
 
