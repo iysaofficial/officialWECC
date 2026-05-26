@@ -25,7 +25,7 @@ function Jenjangonl26() {
               target="_blank"
               className="btn btn-action btn-lg"
             >
-              University
+              University.
             </a>
             <a
               href="https://drive.google.com/file/d/1FYyX3qbbkzN8yVJgmD4S3AMeSjILbyQp/view?usp=sharing"
