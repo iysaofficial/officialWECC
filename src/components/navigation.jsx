@@ -186,6 +186,13 @@ function Navigation() {
                       aria-labelledby="dropdownMenuButton"
                     >
                       <a
+                        href="https://drive.google.com/drive/folders/1yMgn8--B5BhPctdjY-D4Wy1fAzKC7dtI?usp=sharing"
+                        target="_blank"
+                        className="dropdown-item"
+                      >
+                        Certificate Supervisor 2026
+                      </a>
+                      <a
                         href="https://drive.google.com/drive/folders/1LfAN1_1U9wAsjxp62HmAUBOM-C9UW-9y?usp=sharing"
                         target="_blank"
                         className="dropdown-item"
