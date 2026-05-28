@@ -21,11 +21,18 @@ function Jenjangofl26() {
           </div>
           <div className="content-button mt-4">
             <a
-              href="#"
+              href="https://drive.google.com/file/d/1vtFXQoZ7ncTGc6iK2KM4-05iny0C1gCX/view?usp=sharing"
               target="_blank"
               className="btn btn-action btn-lg"
             >
-              Senior High School
+              Secondary
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1mHdAyyyIBQ7fRt8P_D8ZiQwGRag5Z6GF/view?usp=sharing"
+              target="_blank"
+              className="btn btn-action btn-lg"
+            >
+              University
             </a>
             {/* <a
               href=""
