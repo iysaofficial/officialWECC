@@ -21,7 +21,7 @@ function Jenjangofl26() {
           </div>
           <div className="content-button mt-4">
             <a
-              href="https://drive.google.com/file/d/1vtFXQoZ7ncTGc6iK2KM4-05iny0C1gCX/view?usp=sharing"
+              href="https://drive.google.com/file/d/1gZJHE-m3quF79CKnmKgv2gK01C_oGdFE/view?usp=sharing"
               target="_blank"
               className="btn btn-action btn-lg"
             >
