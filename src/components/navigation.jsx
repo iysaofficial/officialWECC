@@ -162,7 +162,7 @@ function Navigation() {
                     >
                       <a
                         className="dropdown-item"
-                        href="https://drive.google.com/drive/folders/12VSzP_kKDEKMGqZf8J5TOTmPFc4pMv6i?usp=sharing"
+                        href="https://drive.google.com/drive/folders/1JpeJgFg2epuc6RzU9cAVMZw686GCpsfW?usp=sharing"
                         target="_blank"
                       >
                         2026
