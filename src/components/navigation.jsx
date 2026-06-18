@@ -120,6 +120,13 @@ function Navigation() {
                       >
                         Press Release 2025
                       </a>
+                      <a
+                        href="https://drive.google.com/file/d/1P4ixNHugzJRlb77IjBGHCGyyA8Bxds9E/view?usp=sharing"
+                        target="_blank"
+                        className="dropdown-item"
+                      >
+                        Press Release 2024
+                      </a>
                     </div>
                   </a>
                   <a className="dropdown d-inline-block">
