@@ -20,11 +20,16 @@ function Kategori24() {
           </div>
           <div className="content-button mt-4">
             <a
-              href="https://drive.google.com/file/d/1jcytMeyvQx3JF7QyE91WIu8T755sgY_y/view?usp=sharing"
-              target="_blank"
+              href="/jenjangofl24"
               className="btn btn-action btn-lg"
             >
-              WECC SPECIAL AWARD
+              OFFLINE
+            </a>
+            <a
+              href="/jenjangonl24"
+              className="btn btn-action btn-lg"
+            >
+              ONLINE
             </a>
             {/* <a href="/jenjangofl24" className="btn btn-action btn-lg">
               WECC OFFLINE

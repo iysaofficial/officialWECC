@@ -21,6 +21,13 @@ function Jenjangofl24() {
           </div>
           <div className="content-button mt-4">
             <a
+              href="https://drive.google.com/file/d/1jcytMeyvQx3JF7QyE91WIu8T755sgY_y/view?usp=sharing"
+              target="_blank"
+              className="btn btn-action btn-lg"
+            >
+              Special Award
+            </a>
+            <a
               href="https://drive.google.com/file/d/1_CMi4pZzvTFJKrNahTMzhiNkpczNto2B/view?usp=sharing"
               target="_blank"
               className="btn btn-action btn-lg"

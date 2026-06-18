@@ -19,13 +19,6 @@ function Kategori25() {
             </h1>
           </div>
           <div className="content-button mt-4">
-            <a
-              href=""
-              target="_blank"
-              className="btn btn-action btn-lg"
-            >
-              WECC SPECIAL AWARD
-            </a>
             <a href="/jenjangofl25" className="btn btn-action btn-lg">
               WECC OFFLINE
             </a>
