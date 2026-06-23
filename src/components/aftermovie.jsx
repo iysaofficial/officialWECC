@@ -4,7 +4,7 @@ function Aftermovie() {
       <section className="aftermovie-section">
         <div className="container">
           <div className="title-content text-center">
-            <h2 className="fw-bold mb-5">After event WECC 2025</h2>
+            <h2 className="fw-bold mb-5">After event WECC 2026</h2>
           </div>
           <div className="row">
             <div className="video-content text-center">
