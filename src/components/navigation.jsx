@@ -144,6 +144,14 @@ function Navigation() {
                       className="dropdown-menu"
                       aria-labelledby="dropdownMenuButton"
                     >
+                      <a href="https://drive.google.com/drive/folders/1lfUjHXhc3okNws3wkPLPd3Oxw8FNTJc3?usp=sharing" target="_blank" className="dropdown-item">
+                        Curation 2026
+                      </a>
+                    </div>
+                    <div
+                      className="dropdown-menu"
+                      aria-labelledby="dropdownMenuButton"
+                    >
                       <a href="https://drive.google.com/drive/folders/1aeCaOZxQm9iBrve-AQmVzvY1LJOsPC_X?usp=sharing" target="_blank" className="dropdown-item">
                         Curation 2025
                       </a>
